@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "home/factslab-egmc/px4_rta_mm_gpr/px4_rta_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/factslab-egmc/px4_rta_mm_gpr/px4_rta_ws/install/px4_msgs/local/lib/python3.10/dist-packages",//dist-packages rather than site-packages because px4_msgs is in C and doesn't have any executables its just a msg def pkg
+    ],
+    "python.envFile": "${workspaceFolder}/.env"
+
+}
